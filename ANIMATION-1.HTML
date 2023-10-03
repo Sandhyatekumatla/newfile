@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+<style>
+    #div1{
+        background-color: blue;
+        height:200px;
+width:200px;
+animation-name: example1;
+position: relative;
+animation-duration:5s;
+    }
+    @keyframes example1{
+        0%{background-color: blue; left:0%; top:0%; }
+        25%{background-color: crimson; left:200px; top:0px;}
+        50%{background-color: gold; left:200px; top:200px; }
+        75%{background-color: chartreuse; left:0px; top:200px;}
+        100%{background-color: darkorange; left:0px; top:0px;}
+        
+    }
+</style>
+    </head>
+    <h2>Animation</h2>
+    <div id="div1"></div>
+</HTML>
